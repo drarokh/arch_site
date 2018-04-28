@@ -103,11 +103,13 @@
 
 .contact-right {
     text-align: left;
-    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contact-left {
     text-align: right;
     border-right: 1px solid #BDBDBD;
-    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
