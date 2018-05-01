@@ -36,7 +36,7 @@
 }
 
 .parallax { 
-    background-image: url("../imgs/projects/1.jpg");
+    background-image: url("../imgs/projects/render_studentato.jpg");
     height: 700px; 
     background-attachment: fixed;
     background-position: center;
@@ -59,6 +59,30 @@
     border-color:#BDBDBD;
     padding-top:16px;
     padding-bottom:16px;
+}
+
+.subsection-title {
+
+}
+
+.about_detail {
+    padding-bottom: 8px;
+}
+
+.about_detail_header {
+    font-weight: bold;
+}
+
+.about_detail_date {
+
+}
+
+.about_detail_footer{
+
+}
+
+.profile-photo {
+    padding-bottom: 16px;
 }
 
 .zm-image img {
@@ -109,7 +133,6 @@
 
 .contact-left {
     text-align: right;
-    border-right: 1px solid #BDBDBD;
     padding-top: 5px;
     padding-bottom: 5px;
 }
