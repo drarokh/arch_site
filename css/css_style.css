@@ -35,15 +35,6 @@
     padding-top:22px;
 }
 
-.parallax { 
-    background-image: url("../imgs/projects/render_studentato.jpg");
-    height: 700px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container-fluid {
     margin: auto;
     max-width: 1500px;
@@ -59,26 +50,6 @@
     border-color:#BDBDBD;
     padding-top:16px;
     padding-bottom:16px;
-}
-
-.subsection-title {
-
-}
-
-.about_detail {
-    padding-bottom: 8px;
-}
-
-.about_detail_header {
-    font-weight: bold;
-}
-
-.about_detail_date {
-
-}
-
-.about_detail_footer{
-
 }
 
 .profile-photo {
@@ -121,18 +92,37 @@
     padding-bottom: 5px;
 }
 
+.about_detail {
+    padding-bottom: 8px;
+}
+
+.about_detail_header {
+    font-weight: bold;
+}
+
 #contact {
     margin-bottom: 20px;
 }
 
-.contact-right {
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    }
+
+.contact-icon {
+    width:19px;
 }
 
-.contact-left {
-    text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.contact-row {
+    width:272px;
+    color: black
+}
+
+.contact-row a{
+    color: black;
+}
+
+.contact-row:hover, .contact-row a:hover{
+    color: red;
+    text-decoration: none;
 }
