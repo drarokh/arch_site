@@ -1,0 +1,121 @@
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom:1px solid #BDBDBD;
+    background-color: white;
+  }
+
+.navbar-brand, .caption {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;    
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: rgba(0,0,0,.5);
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link.active {
+    color: rgba(0,0,0,.9);
+}
+
+#home{
+    padding-top:54px;
+}
+
+#portfolio,#about,#contact{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-top:22px;
+}
+
+.container-fluid {
+    margin: auto;
+    max-width: 1500px;
+}
+
+.container-section-title {
+    padding-top:32px;
+    padding-bottom:32px;
+}
+
+.section-title {
+    border-bottom:1px solid;
+    border-color:#BDBDBD;
+    padding-top:16px;
+    padding-bottom:16px;
+}
+
+.thumbnail {
+    cursor: pointer;
+}
+
+.thumbnail:hover > .caption{
+    color:red;
+}
+
+.zm-image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+}
+.zm-image:hover img {
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+.zm-image {
+    overflow: hidden;
+}
+
+.caption {
+    text-align: center;
+    color: black;
+    min-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#contact, .contact-row a , .contact-icon{
+    color: black;
+}
+
+.contact-row a:hover, .contact-icon:hover {
+    color:red;
+    cursor: pointer;
+}
+
+@media (max-width:1036px) {
+    .exp_left {
+        margin: 0 auto 3em;
+    }
+}
+
+@media (min-width:1037px) {
+	.exp_right {
+        max-width: 660px;
+        margin-left:20px;
+    }
+}
+
+.contact-row {
+    margin-bottom: 10px;
+}
+
+@media (min-width:768px) {
+    .contact-row {
+        margin-bottom: 30px;
+    }
+}
