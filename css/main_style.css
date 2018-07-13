@@ -92,9 +92,20 @@
     color: black;
 }
 
-.contact-row a:hover, .contact-icon:hover {
+.contact-row {
+    margin-bottom: 10px;
+}
+
+.contact-row a:hover, .contact-link:hover {
     color:red;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.social-icon {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 @media (max-width:1036px) {
@@ -110,12 +121,13 @@
     }
 }
 
-.contact-row {
-    margin-bottom: 10px;
-}
-
 @media (min-width:768px) {
     .contact-row {
         margin-bottom: 30px;
     }
+
+    .contact-icon {
+        text-align: center;
+    }
+
 }

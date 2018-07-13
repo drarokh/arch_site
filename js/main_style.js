@@ -18,6 +18,8 @@ $(document).ready(function () {
             autoplayControls: false,
             share: false,
             thumbnail: false,
+            zoom: false,
+            mode: 'lg-fade',
             dynamicEl: [{
                 "src": 'img/1.jpg',
                 'thumb': 'img/thumb-1.jpg',
@@ -45,6 +47,7 @@ $(document).ready(function () {
             autoplayControls: false,
             share: false,
             thumbnail: false,
+            mode: 'lg-fade',
             dynamicEl: [{
                 "src": 'img/1.jpg',
                 'thumb': 'img/thumb-1.jpg',
