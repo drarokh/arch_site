@@ -21,12 +21,10 @@ $(document).ready(function () {
             zoom: false,
             mode: 'lg-fade',
             dynamicEl: [{
-                "src": 'img/1.jpg',
-                'thumb': 'img/thumb-1.jpg',
+                "src": 'img/projects/44.jpg',
                 'subHtml': '<h4>1Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
             }, {
-                'src': 'img/2.jpg',
-                'thumb': 'img/thumb-2.jpg',
+                'src': 'img/projects/441.jpg',
                 'subHtml': "<h4>1Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
             }, {
                 'src': 'img/3.jpg',
