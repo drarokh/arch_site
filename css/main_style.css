@@ -93,41 +93,30 @@
     margin-bottom: 20px;
 }
 
-.cv-section {
-    margin-bottom: 30px;
+.table_blank_row {
+    height: 5px;
 }
 
 .cv-section-title {
     font-size: 1.4rem;
-    margin-bottom:20px;
 }
 
-.cv-elem-section {
-    margin-bottom: 20px;
-}
-
-.cv-elem-date {
-    margin-bottom: 10px;
-}
-
-.cv-elem-date-desc {
-    margin-left:10px;
+.cv-section-title-icon {
+    text-align: center;
 }
 
 .cv-elem-title {
     font-weight: bold;
-    margin-bottom: 7px;
-    margin-left: 30px;
-}
-
-.cv-elem-desc {
-    margin-left: 30px;
 }
 
 .cv-point {
     vertical-align: middle;
+    text-align: center;
     font-size: 8px;
-    margin-left: 8px;
+}
+
+.second-table {
+    margin-top:35px;
 }
 
 #contact, .contact-row a , .contact-icon{
