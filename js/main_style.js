@@ -21,17 +21,21 @@ $(document).ready(function () {
             zoom: false,
             mode: 'lg-fade',
             dynamicEl: [{
-                "src": 'img/projects/44.jpg',
+                "src": 'img/projects/Brion_tomb/1200_675/1_1200_675.jpg',
                 'subHtml': '<h4>1Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
             }, {
-                'src': 'img/projects/441.jpg',
+                'src': 'img/projects/Brion_tomb/1200_675/2_1200_675.jpg',
                 'subHtml': "<h4>1Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
             }, {
-                'src': 'img/3.jpg',
+                'src': 'img/projects/Brion_tomb/1200_675/3_1200_675.jpg',
                 'thumb': 'img/thumb-3.jpg',
                 'subHtml': "<h4>1Coniston Calmness</h4><p>Beautiful morning</p>"
             }, {
-                'src': 'img/3.jpg',
+                'src': 'img/projects/Brion_tomb/1200_675/4_1200_675.jpg',
+                'thumb': 'img/thumb-3.jpg',
+                'subHtml': "<h4>1Coniston Calmness</h4><p>Beautiful morning</p>"
+            }, {
+                'src': 'img/projects/Brion_tomb/1200_675/5_1200_675.jpg',
                 'thumb': 'img/thumb-3.jpg',
                 'subHtml': "<h4>1Coniston Calmness</h4><p>Beautiful morning</p>"
             }]
