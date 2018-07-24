@@ -133,9 +133,17 @@
     padding-bottom: 5px;
 }
 
+.lg-fullscreen-on .lg-sub-html {
+    display: none;
+}
+
 #image-profile {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.table-sm td, .table-sm th {
+    padding: 0.15rem;
 }
 
 .table_blank_row {

@@ -20,6 +20,7 @@ $(document).ready(function () {
             thumbnail: false,
             zoom: false,
             mode: 'lg-fade',
+            hideBarsDelay: 1000,
             dynamicEl: [{
                 "src": 'img/projects/Brion_tomb/1200_675/1_1200_675.jpg',
                 'subHtml': '<h4>1Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
@@ -50,6 +51,7 @@ $(document).ready(function () {
             share: false,
             thumbnail: false,
             mode: 'lg-fade',
+            hideBarsDelay: 1000,
             dynamicEl: [{
                 "src": 'img/1.jpg',
                 'thumb': 'img/thumb-1.jpg',
