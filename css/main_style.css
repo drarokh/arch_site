@@ -47,6 +47,11 @@
     font-size: 17px;    
 }
 
+.navbar-brand:hover {
+    cursor: pointer;
+    color: #D32F2F!important;
+}
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #D32F2F;
 }
@@ -57,7 +62,7 @@
 }
 
 .nav-link.active {
-    color: rgba(0,0,0,.9);
+    color: #D32F2F;
 }
 
 .divider-vertical {
@@ -101,7 +106,7 @@
     color:#D32F2F;
 }
 
-.nav-item dropdown:hover {
+.nav-item .nav-link:hover {
     cursor: pointer;
 }
 
@@ -166,17 +171,6 @@
     vertical-align: middle;
     text-align: center;
     font-size: 8px;
-}
-
-#btnDownloadCV {
-    color: black;
-    border-color: black;
-}
-
-#btnDownloadCV:hover {
-    color: #D32F2F;
-    border-color: #D32F2F;
-    background-color: white;
 }
 
 .second-table {
